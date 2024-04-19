@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F77FACA12BD01F2F0096B869 /* MoneyRevampedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACA02BD01F2F0096B869 /* MoneyRevampedApp.swift */; };
+		F77FACA32BD01F2F0096B869 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACA22BD01F2F0096B869 /* HomeView.swift */; };
+		F77FACA52BD01F320096B869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77FACA42BD01F320096B869 /* Assets.xcassets */; };
+		F77FACA82BD01F320096B869 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77FACA72BD01F320096B869 /* Preview Assets.xcassets */; };
+		F77FACBF2BD029AA0096B869 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACBE2BD029AA0096B869 /* Card.swift */; };
+		F77FACC12BD02D910096B869 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACC02BD02D910096B869 /* CardList.swift */; };
+		F77FACC52BD0327A0096B869 /* BudgetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACC42BD0327A0096B869 /* BudgetList.swift */; };
+		F77FACC92BD040FA0096B869 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACC82BD040FA0096B869 /* ContentView.swift */; };
+		F77FACCE2BD0422F0096B869 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACCD2BD0422F0096B869 /* ProfileView.swift */; };
+		F77FACD02BD042770096B869 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACCF2BD042770096B869 /* LoginView.swift */; };
+		F77FACD22BD0430F0096B869 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACD12BD0430F0096B869 /* RegistrationView.swift */; };
+		F77FACD42BD043480096B869 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACD32BD043480096B869 /* AuthViewModel.swift */; };
+		F77FACD62BD047910096B869 /* TransactionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACD52BD047910096B869 /* TransactionsView.swift */; };
+		F77FACD92BD049560096B869 /* SavingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACD82BD049560096B869 /* SavingsView.swift */; };
+		F77FACDB2BD05B130096B869 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F77FACDA2BD05B130096B869 /* GoogleService-Info.plist */; };
+		F77FACDE2BD05C760096B869 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACDD2BD05C760096B869 /* FirebaseAnalytics */; };
+		F77FACE02BD05C760096B869 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACDF2BD05C760096B869 /* FirebaseAuth */; };
+		F77FACE22BD05C760096B869 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACE12BD05C760096B869 /* FirebaseFirestore */; };
+		F77FACE42BD05C760096B869 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACE32BD05C760096B869 /* FirebaseFirestoreSwift */; };
+		F77FACE62BD05C760096B869 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACE52BD05C760096B869 /* FirebaseStorage */; };
+		F77FACE82BD05D1E0096B869 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACE72BD05D1E0096B869 /* SettingsRowView.swift */; };
+		F77FACEA2BD05D350096B869 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACE92BD05D350096B869 /* InputView.swift */; };
+		F77FACEC2BD05D710096B869 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACEB2BD05D710096B869 /* User.swift */; };
+		F77FACF42BD0C73D0096B869 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = F77FACF32BD0C73D0096B869 /* SwiftUICharts */; };
+		F7AAE9372BD18D17005A37D2 /* BudgetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACC22BD0316B0096B869 /* BudgetCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F77FAC9D2BD01F2E0096B869 /* MoneyRevamped.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyRevamped.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77FACA02BD01F2F0096B869 /* MoneyRevampedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyRevampedApp.swift; sourceTree = "<group>"; };
+		F77FACA22BD01F2F0096B869 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F77FACA42BD01F320096B869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F77FACA72BD01F320096B869 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F77FACBE2BD029AA0096B869 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		F77FACC02BD02D910096B869 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		F77FACC22BD0316B0096B869 /* BudgetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetCard.swift; path = "Saving Goals/BudgetCard.swift"; sourceTree = "<group>"; };
+		F77FACC42BD0327A0096B869 /* BudgetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BudgetList.swift; path = "Saving Goals/BudgetList.swift"; sourceTree = "<group>"; };
+		F77FACC82BD040FA0096B869 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F77FACCD2BD0422F0096B869 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F77FACCF2BD042770096B869 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F77FACD12BD0430F0096B869 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		F77FACD32BD043480096B869 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F77FACD52BD047910096B869 /* TransactionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsView.swift; sourceTree = "<group>"; };
+		F77FACD82BD049560096B869 /* SavingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SavingsView.swift; path = "Saving Goals/SavingsView.swift"; sourceTree = "<group>"; };
+		F77FACDA2BD05B130096B869 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F77FACE72BD05D1E0096B869 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		F77FACE92BD05D350096B869 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F77FACEB2BD05D710096B869 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77FAC9A2BD01F2E0096B869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77FACE42BD05C760096B869 /* FirebaseFirestoreSwift in Frameworks */,
+				F77FACDE2BD05C760096B869 /* FirebaseAnalytics in Frameworks */,
+				F77FACE22BD05C760096B869 /* FirebaseFirestore in Frameworks */,
+				F77FACF42BD0C73D0096B869 /* SwiftUICharts in Frameworks */,
+				F77FACE02BD05C760096B869 /* FirebaseAuth in Frameworks */,
+				F77FACE62BD05C760096B869 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77FAC942BD01F2E0096B869 = {
+			isa = PBXGroup;
+			children = (
+				F77FAC9F2BD01F2E0096B869 /* MoneyRevamped */,
+				F77FAC9E2BD01F2E0096B869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77FAC9E2BD01F2E0096B869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77FAC9D2BD01F2E0096B869 /* MoneyRevamped.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F77FAC9F2BD01F2E0096B869 /* MoneyRevamped */ = {
+			isa = PBXGroup;
+			children = (
+				F77FACCC2BD041ED0096B869 /* Profile */,
+				F77FACBE2BD029AA0096B869 /* Card.swift */,
+				F77FACC02BD02D910096B869 /* CardList.swift */,
+				F77FACD52BD047910096B869 /* TransactionsView.swift */,
+				F77FACC22BD0316B0096B869 /* BudgetCard.swift */,
+				F77FACC42BD0327A0096B869 /* BudgetList.swift */,
+				F77FACD82BD049560096B869 /* SavingsView.swift */,
+				F77FACA22BD01F2F0096B869 /* HomeView.swift */,
+				F77FACC82BD040FA0096B869 /* ContentView.swift */,
+				F77FACA02BD01F2F0096B869 /* MoneyRevampedApp.swift */,
+				F77FACA42BD01F320096B869 /* Assets.xcassets */,
+				F77FACA62BD01F320096B869 /* Preview Content */,
+				F77FACDA2BD05B130096B869 /* GoogleService-Info.plist */,
+			);
+			path = MoneyRevamped;
+			sourceTree = "<group>";
+		};
+		F77FACA62BD01F320096B869 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F77FACA72BD01F320096B869 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F77FACCC2BD041ED0096B869 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F77FACCD2BD0422F0096B869 /* ProfileView.swift */,
+				F77FACCF2BD042770096B869 /* LoginView.swift */,
+				F77FACD12BD0430F0096B869 /* RegistrationView.swift */,
+				F77FACD32BD043480096B869 /* AuthViewModel.swift */,
+				F77FACE72BD05D1E0096B869 /* SettingsRowView.swift */,
+				F77FACE92BD05D350096B869 /* InputView.swift */,
+				F77FACEB2BD05D710096B869 /* User.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77FAC9C2BD01F2E0096B869 /* MoneyRevamped */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77FACAB2BD01F320096B869 /* Build configuration list for PBXNativeTarget "MoneyRevamped" */;
+			buildPhases = (
+				F77FAC992BD01F2E0096B869 /* Sources */,
+				F77FAC9A2BD01F2E0096B869 /* Frameworks */,
+				F77FAC9B2BD01F2E0096B869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyRevamped;
+			packageProductDependencies = (
+				F77FACDD2BD05C760096B869 /* FirebaseAnalytics */,
+				F77FACDF2BD05C760096B869 /* FirebaseAuth */,
+				F77FACE12BD05C760096B869 /* FirebaseFirestore */,
+				F77FACE32BD05C760096B869 /* FirebaseFirestoreSwift */,
+				F77FACE52BD05C760096B869 /* FirebaseStorage */,
+				F77FACF32BD0C73D0096B869 /* SwiftUICharts */,
+			);
+			productName = MoneyRevamped;
+			productReference = F77FAC9D2BD01F2E0096B869 /* MoneyRevamped.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77FAC952BD01F2E0096B869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F77FAC9C2BD01F2E0096B869 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F77FAC982BD01F2E0096B869 /* Build configuration list for PBXProject "MoneyRevamped" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77FAC942BD01F2E0096B869;
+			packageReferences = (
+				F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F77FACF22BD0C73D0096B869 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = F77FAC9E2BD01F2E0096B869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77FAC9C2BD01F2E0096B869 /* MoneyRevamped */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77FAC9B2BD01F2E0096B869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F77FACA82BD01F320096B869 /* Preview Assets.xcassets in Resources */,
+				F77FACA52BD01F320096B869 /* Assets.xcassets in Resources */,
+				F77FACDB2BD05B130096B869 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77FAC992BD01F2E0096B869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7AAE9372BD18D17005A37D2 /* BudgetCard.swift in Sources */,
+				F77FACCE2BD0422F0096B869 /* ProfileView.swift in Sources */,
+				F77FACBF2BD029AA0096B869 /* Card.swift in Sources */,
+				F77FACD02BD042770096B869 /* LoginView.swift in Sources */,
+				F77FACEC2BD05D710096B869 /* User.swift in Sources */,
+				F77FACD92BD049560096B869 /* SavingsView.swift in Sources */,
+				F77FACC92BD040FA0096B869 /* ContentView.swift in Sources */,
+				F77FACE82BD05D1E0096B869 /* SettingsRowView.swift in Sources */,
+				F77FACD62BD047910096B869 /* TransactionsView.swift in Sources */,
+				F77FACC52BD0327A0096B869 /* BudgetList.swift in Sources */,
+				F77FACA32BD01F2F0096B869 /* HomeView.swift in Sources */,
+				F77FACD42BD043480096B869 /* AuthViewModel.swift in Sources */,
+				F77FACA12BD01F2F0096B869 /* MoneyRevampedApp.swift in Sources */,
+				F77FACEA2BD05D350096B869 /* InputView.swift in Sources */,
+				F77FACC12BD02D910096B869 /* CardList.swift in Sources */,
+				F77FACD22BD0430F0096B869 /* RegistrationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F77FACA92BD01F320096B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77FACAA2BD01F320096B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77FACAC2BD01F320096B869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoneyRevamped/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumneetbrar.MoneyRevamped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77FACAD2BD01F320096B869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoneyRevamped/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumneetbrar.MoneyRevamped;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77FAC982BD01F2E0096B869 /* Build configuration list for PBXProject "MoneyRevamped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77FACA92BD01F320096B869 /* Debug */,
+				F77FACAA2BD01F320096B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77FACAB2BD01F320096B869 /* Build configuration list for PBXNativeTarget "MoneyRevamped" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77FACAC2BD01F320096B869 /* Debug */,
+				F77FACAD2BD01F320096B869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+		F77FACF22BD0C73D0096B869 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F77FACDD2BD05C760096B869 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F77FACDF2BD05C760096B869 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F77FACE12BD05C760096B869 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F77FACE32BD05C760096B869 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F77FACE52BD05C760096B869 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F77FACF32BD0C73D0096B869 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F77FACF22BD0C73D0096B869 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F77FAC952BD01F2E0096B869 /* Project object */;
+}
