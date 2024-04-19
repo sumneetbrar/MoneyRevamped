@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7645D4E2BD2F22C000444CA /* LinkKit in Frameworks */ = {isa = PBXBuildFile; productRef = F7645D4D2BD2F22C000444CA /* LinkKit */; };
 		F77FACA12BD01F2F0096B869 /* MoneyRevampedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACA02BD01F2F0096B869 /* MoneyRevampedApp.swift */; };
 		F77FACA32BD01F2F0096B869 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77FACA22BD01F2F0096B869 /* HomeView.swift */; };
 		F77FACA52BD01F320096B869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F77FACA42BD01F320096B869 /* Assets.xcassets */; };
@@ -64,6 +65,7 @@
 			files = (
 				F77FACE42BD05C760096B869 /* FirebaseFirestoreSwift in Frameworks */,
 				F77FACDE2BD05C760096B869 /* FirebaseAnalytics in Frameworks */,
+				F7645D4E2BD2F22C000444CA /* LinkKit in Frameworks */,
 				F77FACE22BD05C760096B869 /* FirebaseFirestore in Frameworks */,
 				F77FACF42BD0C73D0096B869 /* SwiftUICharts in Frameworks */,
 				F77FACE02BD05C760096B869 /* FirebaseAuth in Frameworks */,
@@ -155,6 +157,7 @@
 				F77FACE32BD05C760096B869 /* FirebaseFirestoreSwift */,
 				F77FACE52BD05C760096B869 /* FirebaseStorage */,
 				F77FACF32BD0C73D0096B869 /* SwiftUICharts */,
+				F7645D4D2BD2F22C000444CA /* LinkKit */,
 			);
 			productName = MoneyRevamped;
 			productReference = F77FAC9D2BD01F2E0096B869 /* MoneyRevamped.app */;
@@ -187,6 +190,7 @@
 			packageReferences = (
 				F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				F77FACF22BD0C73D0096B869 /* XCRemoteSwiftPackageReference "ChartView" */,
+				F7645D4C2BD2F22C000444CA /* XCRemoteSwiftPackageReference "plaid-link-ios" */,
 			);
 			productRefGroup = F77FAC9E2BD01F2E0096B869 /* Products */;
 			projectDirPath = "";
@@ -436,6 +440,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		F7645D4C2BD2F22C000444CA /* XCRemoteSwiftPackageReference "plaid-link-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/plaid/plaid-link-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.2;
+			};
+		};
 		F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
@@ -455,6 +467,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		F7645D4D2BD2F22C000444CA /* LinkKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F7645D4C2BD2F22C000444CA /* XCRemoteSwiftPackageReference "plaid-link-ios" */;
+			productName = LinkKit;
+		};
 		F77FACDD2BD05C760096B869 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = F77FACDC2BD05C750096B869 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
